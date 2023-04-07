@@ -1,0 +1,25 @@
+# Ignore the archive directory for linting
+_*
+
+/_archive/**/*
+/.aws-sam/**/*
+/.docker/**/*
+/.git/**/*
+/.github/**/*
+/.husky/**/*
+/.parcel-cache/**/*
+/.thunder/**/*
+/.vscode/**/*
+
+/cdk.out/**/*
+/coverage/**/*
+/data/**/*
+/dist/**/*
+# "/docs/**/* //TODO: check if docs should be ignored. I think they should be linted.
+/events/**/*
+/node_modules/**/*
+
+# ./src/utils/**/*
+# ./src/types/**/*
+# ./src/cdk/**/*
+# ./src/api/**/*

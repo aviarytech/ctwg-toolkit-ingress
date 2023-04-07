@@ -1,0 +1,24 @@
+---
+# token: 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 # Old token
+# token: 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 # New token pages only
+# token: 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 # New token all permissions
+githubOwner: ryan-thorburn
+githubRepo: wikitest
+# githubOwner: trustoverip
+# githubRepo: hxwg
+# TEv2 Curated Text Header
+term: curated-text
+termType: concept
+isa:
+glossaryText: a text that documents a [concept](@) or other [knowledge artifact](@) of a specific [community](@) or other [party](@), and is located within a [scope](@) that is owned by that [community](@)/[party](@).
+synonymOf:
+groupTags:
+formPhrases: curated-text{ss}, ctext{ss}
+# Curation status
+status: proposed
+created: 2022-06-02
+updated: 2022-08-04
+# Origins/Acknowledgements
+contributors: RieksJ
+attribution: "[eSSIF-Lab](https://essif-lab.github.io/framework)"
+originalLicense: "[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)"

@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "jest.config.ts",
+    "**/*.unit.test.ts",
+    "index.ts",
+  ],
+  "exclude": [
+    "./_archive/**/*",
+    "./.github/**/*",
+    "./.husky/**/*",
+    "./.vscode/**/*",
+    "./coverage/**/*",
+    "./docs/**/*",
+    "./node_modules/**/*",
+  ]
+}
