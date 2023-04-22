@@ -6,7 +6,6 @@
     "index.ts",
   ],
   "exclude": [
-    "./_archive/**/*",
     "./.github/**/*",
     "./.husky/**/*",
     "./.vscode/**/*",
