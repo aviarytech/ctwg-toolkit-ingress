@@ -12,7 +12,7 @@ export const main = async (): Promise<void> => {
 
   // YAML Schema Validation
   const schema = z.object({
-    config: z.null().optional(),
+    config: z.string().optional(),
     wikiPath: z.string({ invalid_type_error: 'wikiPath must be a string' }).optional(),
     verbose: z.boolean({ invalid_type_error: 'verbose must be a boolean' }).optional(),
     githubRepo: z.string({ invalid_type_error: 'githubRepo must be a string' }),

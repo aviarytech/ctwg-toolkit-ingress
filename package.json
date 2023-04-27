@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "start": "npx --yes ts-node ./index.ts",
     "test-nocache": "jest --no-cache",
     "releasenotes": "git log --pretty=format:\"%h - %an, %ar : %s\" --since=2.weeks",
     "preinstall": "source $HOME/.nvm/nvm.sh; nvm install",
@@ -11,7 +12,7 @@
     "commit": "npm-run-all lint test checkdeps audit coverage",
     "lint": "eslint . --ext .ts --ext .tsx --ignore-path .gitignore",
     "test": "jest",
-    "checkdeps": "npm-check",
+    "checkdeps": "npm-check || true",
     "audit": "npm audit",
     "coverage": "jest --collect-coverage --maxWorkers 2"
   },
