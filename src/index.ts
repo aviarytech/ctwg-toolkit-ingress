@@ -1,11 +1,12 @@
 #!/usr/bin/env npx ts-node
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import commandLineArgs from 'command-line-args';
 import fs from 'fs-extra';
 import * as yaml from 'js-yaml';
 import { simpleGit } from 'simple-git';
 import { z } from 'zod';
-
-import { extractTokens, getFileContents, removeNullValues, scanDir } from './utils';
+import { CuratedTextParser } from './CuratedText';
+import { getFileContents, removeNullValues, saveToFile, scanDir } from './utils';
 
 
 export const main = async (): Promise<void> => {
@@ -92,19 +93,26 @@ export const main = async (): Promise<void> => {
   // Clone the Github wiki repo
   await simpleGit().clone(settings.githubRepo, settings.wikiPath ?? './wiki', undefined, (err) => {
     if (err) {
-      console.log(`Error cloaning repo: ${err.name} ${err.message}`);
+      console.log(`Error cloning repo: ${err.name} ${err.message}`);
       process.exit(1);
     }
   });
 
   // Scan the cloned wiki repo for markdown files
   const files = scanDir(settings.wikiPath ?? './wiki');
-  console.log('files', files);
+  if (!fs.existsSync('curated-texts')) {
+    fs.mkdirSync('curated-texts', { recursive: true });
+  }
   files.forEach((file) => {
+    const newFile = file.replace('wiki', 'curated-texts');
     console.log('-------------------------------------');
-    console.log(file);
-    const tokens = extractTokens(getFileContents(file));
-    console.log(tokens);
+    const curatedText = new CuratedTextParser(getFileContents(file), {
+      term: file,
+      termType: 'term'
+    });
+    curatedText.toYAML();
+    console.log(file, '->', newFile);
+    saveToFile(newFile, curatedText.toYAML());
   });
 
   // Delete the cloned wiki repo directory

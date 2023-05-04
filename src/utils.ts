@@ -32,6 +32,9 @@ export const scanDir = (directoryPath: string, filesList: string[] = []): string
   return filesList;
 };
 
+export const saveToFile = (filename: string, yaml: string) => {
+  fs.writeFileSync(filename, yaml);
+};
 
 interface MarkdownData {
   title: string;

@@ -3,3 +3,4 @@ wiki
 .dccache
 junit.xml
 coverage/
+.vscode
