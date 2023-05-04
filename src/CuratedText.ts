@@ -23,9 +23,9 @@ export class CuratedTextParser {
   constructor(markdownText: string, options: CuratedTextOptions) {
     this.markdownText = markdownText;
     this.options = options;
-
+  
     // Extract "Definition" section and set as glossaryText
-    const definitionMatch = this.markdownText.match(/## Definition\n([\s\S]*?)(?=\n##|$)/);
+    const definitionMatch = this.markdownText.match(/#{1,2} Definition\n([\s\S]*?)(?=\n#{1,2}|$)/);
     if (definitionMatch && definitionMatch[1]) {
       this.options.glossaryText = definitionMatch[1].trim();
     }

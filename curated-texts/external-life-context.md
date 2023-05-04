@@ -1,6 +1,18 @@
 ---
 term: wiki/external-life-context.md
 termType: term
+glossaryText: >-
+  Other: The world outside the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)
+  including the physical and natural world, other people, organisations or
+  [things](https://trustoverip.github.io/hxwg/glossary.html#thing). The harms
+  experienced in the external life context are [indirect
+  harms](https://trustoverip.github.io/hxwg/glossary.html#indirect-harm).  Note
+  that a [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)
+  of which a
+  [party](https://essif-lab.github.io/framework/docs/essifLab-glossary#party) is
+  not a member is a part of the external life context.
 ---
 # Definition
 Other: The world outside the [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem) including the physical and natural world, other people, organisations or [things](https://trustoverip.github.io/hxwg/glossary.html#thing). The harms experienced in the external life context are [indirect harms](https://trustoverip.github.io/hxwg/glossary.html#indirect-harm).  Note that a [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem) of which a [party](https://essif-lab.github.io/framework/docs/essifLab-glossary#party) is not a member is a part of the external life context.

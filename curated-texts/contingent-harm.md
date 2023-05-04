@@ -1,6 +1,35 @@
 ---
 term: wiki/contingent-harm.md
 termType: term
+glossaryText: >-
+  Contingent harms arise in the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)
+  and are harms that are experienced as a consequence of
+  [transactions](https://essif-lab.github.io/framework/docs/essifLab-glossary#transaction)
+  or decisions made by other
+  [actors](https://essif-lab.github.io/framework/docs/essifLab-glossary#actor)
+  who are also members of the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem).  
+
+  Sources of contingent harm are the misalignment of
+  [objectives](https://essif-lab.github.io/framework/docs/essifLab-glossary#objective)
+  or incentives between
+  [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)
+  in the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem);
+  loss of digital access, and a failure of
+  [governance](https://essif-lab.github.io/framework/docs/essifLab-glossary#governance)
+  or technology to function as expected. 
+
+  Impacts of contingent harms are
+  [ecosystem](https://essif-lab.github.io/framework/docs/essifLab-glossary#ecosystem)
+  decay affecting all
+  [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)
+  in the
+  [ecosystem](https://essif-lab.github.io/framework/docs/essifLab-glossary#ecosystem)
+  and breakdown of relationships leading to loss of interoperability with other
+  [digital identity
+  ecosystems](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)
 ---
 # Definition
 Contingent harms arise in the [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem) and are harms that are experienced as a consequence of [transactions](https://essif-lab.github.io/framework/docs/essifLab-glossary#transaction) or decisions made by other [actors](https://essif-lab.github.io/framework/docs/essifLab-glossary#actor) who are also members of the [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem).  

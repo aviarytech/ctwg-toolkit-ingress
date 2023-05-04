@@ -1,6 +1,18 @@
 ---
 term: wiki/felt-harm.md
 termType: term
+glossaryText: >-
+  Felt harms affect the physical and mental health and wellbeing of the harmed
+  [party]([https://essif-lab.github.io/framework/docs/essifLab-glossary#](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)party)
+  in their [internal life
+  context](https://trustoverip.github.io/toip/glossary.html#internal-life-context). 
+
+  Sources of felt harm are vulnerabilities e.g. a physical or mental health
+  condition, dislocation and dissociation, e.g. for refugees.
+
+  Felt harms have negative physiological, social, behavioural, emotional,
+  spiritual, religious or psychological impacts on the harmed
+  [party](https://essif-lab.github.io/framework/docs/essifLab-glossary#party).
 ---
 # Definition
 Felt harms affect the physical and mental health and wellbeing of the harmed [party]([https://essif-lab.github.io/framework/docs/essifLab-glossary#](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)party) in their [internal life context](https://trustoverip.github.io/toip/glossary.html#internal-life-context). 

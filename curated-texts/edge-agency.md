@@ -1,6 +1,15 @@
 ---
 term: wiki/edge-agency.md
 termType: term
+glossaryText: >-
+  Edge agency is the ability of all
+  [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)
+  at the edge of [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)
+  (especially those who typically lack power or those who are operating outside
+  of their normal social structure, or who are in a minority), to autonomously
+  and intentionally make
+  [decisions]([https://essif-lab.github.io/framework/docs/essifLab-glossary#](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)decision).
 ---
 # Definition
 Edge agency is the ability of all [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party) at the edge of [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem) (especially those who typically lack power or those who are operating outside of their normal social structure, or who are in a minority), to autonomously and intentionally make [decisions]([https://essif-lab.github.io/framework/docs/essifLab-glossary#](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)decision).

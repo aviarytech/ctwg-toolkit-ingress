@@ -1,6 +1,16 @@
 ---
 term: wiki/digital-identity.md
 termType: term
+glossaryText: >-
+  [Digital
+  data](https://essif-lab.github.io/framework/docs/essifLab-glossary#data) that
+  enables a specific
+  [entity](https://essif-lab.github.io/framework/docs/essifLab-glossary#entity)
+  to be distinguished from all others in a specific context. Identity may apply
+  to any type of
+  [entity](https://essif-lab.github.io/framework/docs/terms/entity), including
+  individuals, organisations, and
+  [things](https://trustoverip.github.io/hxwg/glossary.html#thing).
 ---
 # Definition
 [Digital data](https://essif-lab.github.io/framework/docs/essifLab-glossary#data) that enables a specific [entity](https://essif-lab.github.io/framework/docs/essifLab-glossary#entity) to be distinguished from all others in a specific context. Identity may apply to any type of [entity](https://essif-lab.github.io/framework/docs/terms/entity), including individuals, organisations, and [things](https://trustoverip.github.io/hxwg/glossary.html#thing).

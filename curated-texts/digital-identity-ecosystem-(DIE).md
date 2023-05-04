@@ -1,6 +1,14 @@
 ---
 term: wiki/digital-identity-ecosystem-(DIE).md
 termType: term
+glossaryText: >-
+  A set of at least two (autonomous)
+  [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)
+  (the members of the ecosystem), whose individual expressions of [digital
+  identity](https://trustoverip.github.io/hxwg/glossary.html#digital-identity)
+  are recognised by other members, and whose individual work is of benefit to
+  the set as a whole. Also see [digital trust ecosystem
+  (DTE)](https://trustoverip.github.io/toip/glossary.html#digital-trust-ecosystem).
 ---
 # Definition
 A set of at least two (autonomous) [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party) (the members of the ecosystem), whose individual expressions of [digital identity](https://trustoverip.github.io/hxwg/glossary.html#digital-identity) are recognised by other members, and whose individual work is of benefit to the set as a whole. Also see [digital trust ecosystem (DTE)](https://trustoverip.github.io/toip/glossary.html#digital-trust-ecosystem).

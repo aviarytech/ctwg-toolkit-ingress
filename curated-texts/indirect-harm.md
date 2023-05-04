@@ -1,6 +1,28 @@
 ---
 term: wiki/indirect-harm.md
 termType: term
+glossaryText: >-
+  Indirect harm is the intentional or unintentional harm that is experienced by
+  one or more members of the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)
+  as a result of events or decisions outside the
+  [jurisdiction](https://essif-lab.github.io/framework/docs/essifLab-glossary#jurisdiction)
+  of the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem),
+  i.e. in the [external life
+  context](https://trustoverip.github.io/toip/glossary.html#external-life-context). 
+
+  Sources of harm include shocks and trends or changes, such as pandemics,
+  deforestation, war, an unexpected regulatory or legislative change, or climate
+  emergency. 
+
+  Indirect harms often have physical or infrastructural impacts on all the
+  members of the [digital identity
+  ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem). 
+  The  harmed
+  [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)
+  have no influence or power over the circumstances or events that lead to that
+  harm.
 ---
 # Definition
 Indirect harm is the intentional or unintentional harm that is experienced by one or more members of the [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem) as a result of events or decisions outside the [jurisdiction](https://essif-lab.github.io/framework/docs/essifLab-glossary#jurisdiction) of the [digital identity ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem), i.e. in the [external life context](https://trustoverip.github.io/toip/glossary.html#external-life-context). 
