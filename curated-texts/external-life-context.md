@@ -1,5 +1,5 @@
 ---
-term: wiki/external-life-context.md
+term: External Life Context
 termType: term
 glossaryText: >-
   Other: The world outside the [digital identity

@@ -1,5 +1,5 @@
 ---
-term: wiki/collective-resiliency.md
+term: Collective Resiliency
 termType: term
 glossaryText: >-
   Collective resiliency is the ability of the [digital identity

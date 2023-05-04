@@ -1,5 +1,5 @@
 ---
-term: wiki/PESTEL.md
+term: PESTEL
 termType: term
 glossaryText: >-
   Political, Economic, Sociocultural, Technological, Environmental and Legal - a

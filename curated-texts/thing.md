@@ -1,5 +1,5 @@
 ---
-term: wiki/thing.md
+term: Thing
 termType: term
 glossaryText: >-
   From [Sovrin Foundation Glossary

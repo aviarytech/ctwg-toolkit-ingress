@@ -1,5 +1,5 @@
 ---
-term: wiki/digital-identity-ecosystem-(DIE).md
+term: Digital Identity Ecosystem (DIE)
 termType: term
 glossaryText: >-
   A set of at least two (autonomous)

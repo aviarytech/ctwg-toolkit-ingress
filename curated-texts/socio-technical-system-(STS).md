@@ -1,5 +1,5 @@
 ---
-term: wiki/socio-technical-system-(STS).md
+term: Socio Technical System (STS)
 termType: term
 glossaryText: >-
   An approach to complex organizational work design that recognizes the

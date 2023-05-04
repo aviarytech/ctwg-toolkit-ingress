@@ -1,5 +1,5 @@
 ---
-term: wiki/edge-agency.md
+term: Edge Agency
 termType: term
 glossaryText: >-
   Edge agency is the ability of all

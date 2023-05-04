@@ -1,5 +1,5 @@
 ---
-term: wiki/natural-thing.md
+term: Natural Thing
 termType: term
 glossaryText: >-
   From [Sovrin Foundation Glossary

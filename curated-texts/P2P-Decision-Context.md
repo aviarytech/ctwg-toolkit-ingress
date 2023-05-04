@@ -1,5 +1,5 @@
 ---
-term: wiki/P2P-Decision-Context.md
+term: P2P Decision Context
 termType: term
 glossaryText: >-
   Single or chained peer-to-peer interactions or

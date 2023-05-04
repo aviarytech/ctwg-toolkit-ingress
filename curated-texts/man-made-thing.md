@@ -1,5 +1,5 @@
 ---
-term: wiki/man-made-thing.md
+term: Man Made Thing
 termType: term
 glossaryText: >-
   From [Sovrin Foundation Glossary

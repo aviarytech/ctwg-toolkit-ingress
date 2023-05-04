@@ -6,7 +6,7 @@ import * as yaml from 'js-yaml';
 import { simpleGit } from 'simple-git';
 import { z } from 'zod';
 import { CuratedTextParser } from './CuratedText';
-import { getFileContents, removeNullValues, saveToFile, scanDir } from './utils';
+import { filenameToTitle, getFileContents, removeNullValues, saveToFile, scanDir } from './utils';
 
 
 export const main = async (): Promise<void> => {
@@ -107,7 +107,7 @@ export const main = async (): Promise<void> => {
     const newFile = file.replace('wiki', 'curated-texts');
     console.log('-------------------------------------');
     const curatedText = new CuratedTextParser(getFileContents(file), {
-      term: file,
+      term: filenameToTitle(file),
       termType: 'term'
     });
     curatedText.toYAML();

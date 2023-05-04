@@ -1,5 +1,5 @@
 ---
-term: wiki/harms-work.md
+term: Harms Work
 termType: term
 glossaryText: >-
   Efforts to characterize, detect, prevent, intervene in, remediate, and learn

@@ -1,5 +1,5 @@
 ---
-term: wiki/digital-trust-ecosystem-(DTE).md
+term: Digital Trust Ecosystem (DTE)
 termType: term
 glossaryText: >-
   See ToIP core terms [digital trust ecosystem

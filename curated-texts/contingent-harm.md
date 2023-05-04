@@ -1,5 +1,5 @@
 ---
-term: wiki/contingent-harm.md
+term: Contingent Harm
 termType: term
 glossaryText: >-
   Contingent harms arise in the [digital identity

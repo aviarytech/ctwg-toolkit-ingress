@@ -1,5 +1,5 @@
 ---
-term: wiki/self-sovereign-identity-(SSI).md
+term: Self Sovereign Identity (SSI)
 termType: term
 glossaryText: >-
   See Trust over IP [self-sovereign

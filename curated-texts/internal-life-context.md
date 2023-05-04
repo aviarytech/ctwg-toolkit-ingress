@@ -1,5 +1,5 @@
 ---
-term: wiki/internal-life-context.md
+term: Internal Life Context
 termType: term
 glossaryText: >-
   Self: The world inside human beings as individuals and as social groups.  The

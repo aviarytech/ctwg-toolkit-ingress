@@ -1,5 +1,5 @@
 ---
-term: wiki/complex-adaptive-system-(CAS).md
+term: Complex Adaptive System (CAS)
 termType: term
 glossaryText: >-
   A group of semi-autonomous agents who interact in interdependent ways to

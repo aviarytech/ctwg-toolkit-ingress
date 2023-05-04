@@ -1,5 +1,5 @@
 ---
-term: wiki/balance-of-power.md
+term: Balance Of Power
 termType: term
 glossaryText: >-
   A balance of power in a [digital identity

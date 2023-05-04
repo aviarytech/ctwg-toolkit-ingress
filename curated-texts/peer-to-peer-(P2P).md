@@ -1,5 +1,5 @@
 ---
-term: wiki/peer-to-peer-(P2P).md
+term: Peer To Peer (P2P)
 termType: term
 glossaryText: >-
   Peer to Peer originally used to describe computer networks where each

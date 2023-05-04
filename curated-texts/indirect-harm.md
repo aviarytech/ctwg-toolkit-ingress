@@ -1,5 +1,5 @@
 ---
-term: wiki/indirect-harm.md
+term: Indirect Harm
 termType: term
 glossaryText: >-
   Indirect harm is the intentional or unintentional harm that is experienced by

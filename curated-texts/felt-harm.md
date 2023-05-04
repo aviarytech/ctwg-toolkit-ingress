@@ -1,5 +1,5 @@
 ---
-term: wiki/felt-harm.md
+term: Felt Harm
 termType: term
 glossaryText: >-
   Felt harms affect the physical and mental health and wellbeing of the harmed

@@ -1,5 +1,5 @@
 ---
-term: wiki/direct-harm.md
+term: Direct Harm
 termType: term
 glossaryText: >-
   Direct harm is the intentional or unintentional harm that is inflicted by one

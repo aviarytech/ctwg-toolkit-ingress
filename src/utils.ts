@@ -58,5 +58,20 @@ export const extractTokens = (text: string): MarkdownData => {
   return hash;
 };
 
+export function filenameToTitle(filename: string): string {
+  // Remove the directory path and file extension
+  const baseFilename = filename.replace(/^.*\//, '').replace(/\.md$/, '');
+
+  // Split the filename into words using '-' as a delimiter
+  const words = baseFilename.split('-');
+
+  // Capitalize the first letter of each word and join them with spaces
+  const title = words
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+
+  return title;
+}
+
 
 export const getFileContents = (filePath: string): string => fs.readFileSync(filePath, 'utf-8');

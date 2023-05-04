@@ -1,5 +1,5 @@
 ---
-term: wiki/Minimum-Virtuous-Product-(MVirP).md
+term: Minimum Virtuous Product (MVirP)
 termType: term
 glossaryText: >-
   A method of product development that tests for the effects on stakeholders and

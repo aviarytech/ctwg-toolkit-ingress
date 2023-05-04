@@ -1,5 +1,5 @@
 ---
-term: wiki/digital-identity.md
+term: Digital Identity
 termType: term
 glossaryText: >-
   [Digital
