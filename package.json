@@ -1,5 +1,5 @@
 {
-  "name": "ctwg-toolkit-ingress",
+  "name": "@aviarytech/ingress",
   "version": "0.0.1",
   "description": "",
   "main": "index.ts",
@@ -18,17 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aviarytech/ctwg-toolkit-ingress.git"
+    "url": "git+https://github.com/aviarytech/ingress.git"
   },
   "keywords": [
-    "ctwg"
+    "ctwg",
+    "tev2",
+    "ingress"
   ],
   "author": "Ryan Thorburn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aviarytech/ctwg-toolkit-ingress/issues"
+    "url": "https://github.com/aviarytech/ingress/issues"
   },
-  "homepage": "https://github.com/aviarytech/ctwg-toolkit-ingress#readme",
+  "homepage": "https://github.com/aviarytech/ingress#readme",
   "dependencies": {
     "@types/fs-extra": "^11.0.1",
     "@types/js-yaml": "^4.0.5",
