@@ -1,7 +1,7 @@
 #!/usr/bin/env npx ts-node
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 import commandLineArgs from 'command-line-args';
-import fs from 'fs-extra';
+import* as fs from 'fs';
 import * as yaml from 'js-yaml';
 import { simpleGit } from 'simple-git';
 import { z } from 'zod';
@@ -75,7 +75,7 @@ export const main = async (): Promise<void> => {
   const result = schema.safeParse(settings);
 
   // If the settings object is not valid based on the schema, throw an error
-  if (!result.success) throw new Error(`Config is invalid ${JSON.stringify(result.error, null, 2)}`);
+  if (!result.success) throw new Error(`Config is invalid ${JSON.stringify(result, null, 2)}`);
 
   // Validate the settings object
   if (!settings.githubRepo) throw new Error('Github Repo is required. Please provide a URL to a repo using with the -r or --githubRepo flag or githubRepo in the config.yaml file.');
@@ -116,8 +116,7 @@ export const main = async (): Promise<void> => {
   });
 
   // Delete the cloned wiki repo directory
-  await fs.rm(settings.wikiPath ?? './wiki', { recursive: true, force: true });
-
+  fs.rmSync(settings.wikiPath ?? './wiki');
 };
 
 export default main;
