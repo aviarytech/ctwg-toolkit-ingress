@@ -1,40 +1,38 @@
 {
   "name": "@aviarytech/tev2-ingress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.ts",
+  "main": "lib/Run.js",
+  "types": "lib/Run.d.ts",
+  "bin": {
+    "tev2-ingress": "./lib/Run.js"
+  },
   "type": "module",
   "scripts": {
-    "build": "rm -rf lib && tsc -p ./index.ts",
-    "start": "npx --yes ts-node ./index.ts",
-    "test-nocache": "jest --no-cache",
-    "releasenotes": "git log --pretty=format:\"%h - %an, %ar : %s\" --since=2.weeks",
-    "commit": "npm-run-all lint test checkdeps audit coverage",
-    "lint": "eslint . --ext .ts --ext .tsx --ignore-path .gitignore",
-    "test": "jest",
-    "checkdeps": "npm-check || true",
-    "audit": "npm audit",
-    "coverage": "jest --collect-coverage --maxWorkers 2"
+    "build": "rm -rf lib && tsc -p .",
+    "rebuild": "npm uninstall @aviarytech/tev2-ingress -g && rm -rf lib && npm run build && npm i -g",
+    "postbuild": "cp package.json lib/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aviarytech/ingress.git"
+    "url": "git+https://github.com/aviarytech/tev2-ingress.git"
   },
   "keywords": [
     "ctwg",
     "tev2",
     "ingress"
   ],
-  "author": "Ryan Thorburn",
+  "author": "Brian Richter",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aviarytech/ingress/issues"
+    "url": "https://github.com/aviarytech/tev2-ingress/issues"
   },
-  "homepage": "https://github.com/aviarytech/ingress#readme",
+  "homepage": "https://github.com/aviarytech/tev2-ingress#readme",
   "dependencies": {
     "@types/fs-extra": "^11.0.1",
     "@types/js-yaml": "^4.0.5",
     "command-line-args": "^5.2.1",
+    "commander": "^11.0.0",
     "js-yaml": "^4.1.0",
     "markdown-it": "^13.0.1",
     "simple-git": "^3.17.0",
@@ -43,13 +41,10 @@
   "devDependencies": {
     "@types/command-line-args": "^5.2.0",
     "@types/markdown-it": "^12.2.3",
-    "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@typescript-eslint/parser": "^5.59.0",
-    "eslint": "^8.39.0",
-    "eslint-plugin-import": "^2.27.5",
-    "jest": "^29.5.0",
-    "jest-junit": "^16.0.0",
     "npm-run-all": "^4.1.5",
-    "ts-jest": "^29.1.0"
-  }
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }

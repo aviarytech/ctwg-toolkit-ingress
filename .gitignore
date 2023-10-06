@@ -5,3 +5,4 @@ junit.xml
 coverage/
 .vscode
 wiki.reference
+lib/
