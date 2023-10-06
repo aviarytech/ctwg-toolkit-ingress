@@ -164,7 +164,7 @@ const main = async (): Promise<void> => {
   console.log(JSON.stringify(settings, null, 2)); // TODO might need to remove this. If there are any secrets it would leak them.
 
   // Delete the cloned wiki repo directory if it alredy exists
-  fs.rmSync(settings.wikiPath ?? "./wiki", { recursive: true });
+  fs.rmSync(settings.wikiPath ?? "./wiki", { recursive: true, force: true });
 
   // Clone the Github wiki repo
   await simpleGit().clone(
@@ -197,7 +197,7 @@ const main = async (): Promise<void> => {
   });
 
   // Delete the cloned wiki repo directory
-  fs.rmSync(settings.wikiPath ?? "./wiki", { recursive: true });
+  fs.rmSync(settings.wikiPath ?? "./wiki", { recursive: true, force: true });
 };
 
 main();
