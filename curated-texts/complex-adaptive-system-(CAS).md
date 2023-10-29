@@ -1,6 +1,7 @@
 ---
-term: Complex Adaptive System (CAS)
-termType: term
+glossaryTerm: Complex Adaptive System (CAS)
+term: complex-adaptive-system
+termType: concept
 glossaryText: >-
   A group of semi-autonomous agents who interact in interdependent ways to
   produce system-wide patterns, such that those patterns then influence

@@ -1,6 +1,7 @@
 ---
-term: Internal Life Context
-termType: term
+glossaryTerm: Internal Life Context
+term: internal-life-context
+termType: concept
 glossaryText: >-
   Self: The world inside human beings as individuals and as social groups.  The
   physiological, psychological and spiritual world, of thoughts, stories,

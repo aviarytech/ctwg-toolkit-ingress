@@ -10,6 +10,7 @@ import { CuratedTextParser } from "./CuratedText.js";
 import { fileURLToPath } from "url";
 import {
   filenameToTitle,
+  filenameToTerm,
   getFileContents,
   removeNullValues,
   saveToFile,
@@ -22,7 +23,7 @@ import figlet from "figlet";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const packageJson = JSON.parse(
-  fs.readFileSync(path.resolve(__dirname, "package.json"), "utf8")
+  fs.readFileSync(path.resolve(__dirname, "../package.json"), "utf8")
 );
 const version = packageJson.version;
 const program = new Command();
@@ -79,6 +80,9 @@ const main = async (): Promise<void> => {
   console.log(
     chalk.red(figlet.textSync("TEv2 Ingress", { horizontalLayout: "full" }))
   );
+  console.log(
+    chalk.yellow(figlet.textSync(version, { horizontalLayout: "full" }))
+  );
 
   if (options.config) {
     try {
@@ -129,10 +133,10 @@ const main = async (): Promise<void> => {
   }
   files.forEach((file) => {
     const newFile = file.replace("wiki", "curated-texts");
-    console.log("-------------------------------------");
     const curatedText = new CuratedTextParser(getFileContents(file), {
-      term: filenameToTitle(file),
-      termType: "term",
+      glossaryTerm: filenameToTitle(file),
+      term: filenameToTerm(file),
+      termType: "concept",
     });
     curatedText.toYAML();
     console.log(file, "->", newFile);

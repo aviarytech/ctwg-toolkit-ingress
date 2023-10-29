@@ -60,6 +60,7 @@ export const extractTokens = (text: string): MarkdownData => {
 
 export function filenameToTitle(filename: string): string {
   // Remove the directory path and file extension
+  console.log(filename)
   const baseFilename = filename.replace(/^.*\//, '').replace(/\.md$/, '');
 
   // Split the filename into words using '-' as a delimiter
@@ -73,5 +74,11 @@ export function filenameToTitle(filename: string): string {
   return title;
 }
 
+export function filenameToTerm(filename: string): string {
+  return filename
+    .replace(/\(.*?\)/g, "").replace(/^.*\//, '')
+    .replace(/\.md$/, '').replace(/-$/, "")
+    .toLowerCase();
+}
 
 export const getFileContents = (filePath: string): string => fs.readFileSync(filePath, 'utf-8');

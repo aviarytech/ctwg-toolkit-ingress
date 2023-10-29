@@ -1,6 +1,7 @@
 ---
-term: Edge Agency
-termType: term
+glossaryTerm: Edge Agency
+term: edge-agency
+termType: concept
 glossaryText: >-
   Edge agency is the ability of all
   [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)

@@ -1,6 +1,7 @@
 ---
-term: Peer To Peer (P2P)
-termType: term
+glossaryTerm: Peer To Peer (P2P)
+term: peer-to-peer
+termType: concept
 glossaryText: >-
   Peer to Peer originally used to describe computer networks where each
   participant acts as both a client and server. Can also refer to any 1:1

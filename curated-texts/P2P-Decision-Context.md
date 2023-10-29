@@ -1,6 +1,7 @@
 ---
-term: P2P Decision Context
-termType: term
+glossaryTerm: P2P Decision Context
+term: p2p-decision-context
+termType: concept
 glossaryText: >-
   Single or chained peer-to-peer interactions or
   [transactions](https://essif-lab.github.io/framework/docs/essifLab-glossary#transaction)

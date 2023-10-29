@@ -1,6 +1,7 @@
 ---
-term: Digital Identity Ecosystem (DIE)
-termType: term
+glossaryTerm: Digital Identity Ecosystem (DIE)
+term: digital-identity-ecosystem
+termType: concept
 glossaryText: >-
   A set of at least two (autonomous)
   [parties](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)

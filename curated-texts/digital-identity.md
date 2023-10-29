@@ -1,6 +1,7 @@
 ---
-term: Digital Identity
-termType: term
+glossaryTerm: Digital Identity
+term: digital-identity
+termType: concept
 glossaryText: >-
   [Digital
   data](https://essif-lab.github.io/framework/docs/essifLab-glossary#data) that

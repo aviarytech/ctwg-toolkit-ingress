@@ -1,6 +1,7 @@
 ---
-term: Balance Of Power
-termType: term
+glossaryTerm: Balance Of Power
+term: balance-of-power
+termType: concept
 glossaryText: >-
   A balance of power in a [digital identity
   ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)

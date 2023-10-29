@@ -1,6 +1,7 @@
 ---
-term: Direct Harm
-termType: term
+glossaryTerm: Direct Harm
+term: direct-harm
+termType: concept
 glossaryText: >-
   Direct harm is the intentional or unintentional harm that is inflicted by one
   [peer

@@ -1,6 +1,7 @@
 ---
-term: PESTEL
-termType: term
+glossaryTerm: PESTEL
+term: pestel
+termType: concept
 glossaryText: >-
   Political, Economic, Sociocultural, Technological, Environmental and Legal - a
   method of business analysis, see [PESTEL

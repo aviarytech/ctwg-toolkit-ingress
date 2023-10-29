@@ -1,6 +1,7 @@
 ---
-term: Harms Work
-termType: term
+glossaryTerm: Harms Work
+term: harms-work
+termType: concept
 glossaryText: >-
   Efforts to characterize, detect, prevent, intervene in, remediate, and learn
   from human harms rising from ToIP-related technologies.

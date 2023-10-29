@@ -1,6 +1,7 @@
 ---
-term: Minimum Virtuous Product (MVirP)
-termType: term
+glossaryTerm: Minimum Virtuous Product (MVirP)
+term: minimum-virtuous-product
+termType: concept
 glossaryText: >-
   A method of product development that tests for the effects on stakeholders and
   builds in guards against potential harms. Defined by Hemant Taneja,[ The Era

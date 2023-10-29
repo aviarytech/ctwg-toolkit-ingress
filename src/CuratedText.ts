@@ -4,6 +4,7 @@ interface CuratedTextOptions {
   term: string;
   termType: string;
   isa?: string;
+  glossaryTerm?: string;
   glossaryText?: string;
   synonymOf?: string;
   groupTags?: string[];

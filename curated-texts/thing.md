@@ -1,6 +1,7 @@
 ---
-term: Thing
-termType: term
+glossaryTerm: Thing
+term: thing
+termType: concept
 glossaryText: >-
   From [Sovrin Foundation Glossary
   V3](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit).

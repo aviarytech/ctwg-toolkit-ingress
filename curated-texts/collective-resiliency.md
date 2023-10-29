@@ -1,6 +1,7 @@
 ---
-term: Collective Resiliency
-termType: term
+glossaryTerm: Collective Resiliency
+term: collective-resiliency
+termType: concept
 glossaryText: >-
   Collective resiliency is the ability of the [digital identity
   ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)

@@ -1,6 +1,7 @@
 ---
-term: External Life Context
-termType: term
+glossaryTerm: External Life Context
+term: external-life-context
+termType: concept
 glossaryText: >-
   Other: The world outside the [digital identity
   ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)

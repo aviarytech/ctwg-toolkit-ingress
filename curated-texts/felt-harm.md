@@ -1,6 +1,7 @@
 ---
-term: Felt Harm
-termType: term
+glossaryTerm: Felt Harm
+term: felt-harm
+termType: concept
 glossaryText: >-
   Felt harms affect the physical and mental health and wellbeing of the harmed
   [party]([https://essif-lab.github.io/framework/docs/essifLab-glossary#](https://essif-lab.github.io/framework/docs/essifLab-glossary#party)party)

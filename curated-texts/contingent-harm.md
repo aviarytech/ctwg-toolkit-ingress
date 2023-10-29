@@ -1,6 +1,7 @@
 ---
-term: Contingent Harm
-termType: term
+glossaryTerm: Contingent Harm
+term: contingent-harm
+termType: concept
 glossaryText: >-
   Contingent harms arise in the [digital identity
   ecosystem](https://trustoverip.github.io/hxwg/glossary.html#digital-identity-ecosystem)

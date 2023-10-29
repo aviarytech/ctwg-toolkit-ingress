@@ -1,6 +1,7 @@
 ---
-term: Socio Technical System (STS)
-termType: term
+glossaryTerm: Socio Technical System (STS)
+term: socio-technical-system
+termType: concept
 glossaryText: >-
   An approach to complex organizational work design that recognizes the
   interaction between people and technology in workplaces. The term also refers

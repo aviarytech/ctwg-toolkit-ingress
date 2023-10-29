@@ -1,6 +1,7 @@
 ---
-term: Indirect Harm
-termType: term
+glossaryTerm: Indirect Harm
+term: indirect-harm
+termType: concept
 glossaryText: >-
   Indirect harm is the intentional or unintentional harm that is experienced by
   one or more members of the [digital identity
