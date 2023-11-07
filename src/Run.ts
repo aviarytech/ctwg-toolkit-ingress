@@ -132,12 +132,12 @@ const main = async (): Promise<void> => {
     fs.mkdirSync("curated-texts", { recursive: true });
   }
   files.forEach((file) => {
-    const newFile = file.replace("wiki", "curated-texts");
     const curatedText = new CuratedTextParser(getFileContents(file), {
       glossaryTerm: filenameToTitle(file),
       term: filenameToTerm(file),
       termType: "concept",
     });
+    const newFile = `curated-texts/${filenameToTerm(file)}.md`;
     curatedText.toYAML();
     console.log(file, "->", newFile);
     saveToFile(newFile, curatedText.toYAML());
