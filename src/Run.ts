@@ -114,17 +114,21 @@ const main = async (): Promise<void> => {
   fs.rmSync(options.wikiPath ?? "./wiki", { recursive: true, force: true });
 
   // Clone the Github wiki repo
-  await simpleGit().clone(
-    options.githubRepo,
-    options.wikiPath ?? "./wiki",
-    undefined,
-    (err) => {
-      if (err) {
-        console.log(`Error cloning repo: ${err.name} ${err.message}`);
-        process.exit(1);
-      }
-    }
-  );
+  // await simpleGit().clone(
+  //   options.githubRepo,
+  //   options.wikiPath ?? "./wiki",
+  //   undefined,
+  //   (err) => {
+  //     if (err) {
+  //       console.log(`Error cloning repo: ${err.name} ${err.message}`);
+  //       process.exit(1);
+  //     }
+  //   }
+  // );
+  const resp = await fetch(options.googleDoc);
+  console.log(resp.status);
+  const html = await resp.text();
+  console.log(html);
 
   // Scan the cloned wiki repo for markdown files
   const files = scanDir(options.wikiPath ?? "./wiki");
